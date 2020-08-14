@@ -1,0 +1,12 @@
+name: CEC
+version: ${project.version}
+main: ctx.cec.CEC
+api-version: 1.16
+load: STARTUP
+authors: [CommanderCortex]
+description: Cortex Easy Commands
+website: https://github.com/CommanderCortex
+commands:
+  gm:
+    description: Simple Gamemode Command
+    usage: /gm
